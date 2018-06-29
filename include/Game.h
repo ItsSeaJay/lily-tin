@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 #include "SFML\Window.hpp"
 
 namespace LilyTin
@@ -18,8 +19,6 @@ namespace LilyTin
 		void finish();
 
 	private:
-		float mElapsedTime;
-
 		std::string mTitle;
 		sf::Window mWindow;
 	};

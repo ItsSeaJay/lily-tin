@@ -1,3 +1,5 @@
+#pragma once
+
 #include "..\include\Game.h"
 
 LilyTin::Game::Game(std::string title) : mTitle(title)
