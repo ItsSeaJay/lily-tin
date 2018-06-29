@@ -1,7 +1,5 @@
-#include "config.h"
 #include <iostream>
-#include <Graphics.hpp>
-using namespace std;
+#include "SFML\Graphics.hpp"
 
 int main(int argc, char* argv[]) {
 
