@@ -1,16 +1,14 @@
 #include <iostream>
-#include "SFML/Graphics.hpp"
+#include "Game.h"
+#include "SFML\Window.hpp"
 
-int main(int argc, char* argv[]) {
+int main(int argc, char* argv[])
+{
+	LilyTin::Game game("Lily Tin");
 
-	sf::Window App(sf::VideoMode(800, 600), "myproject");
+	game.start();
+	game.update();
+	game.finish();
 
-	while (App.isOpen()) {
-		sf::Event Event;
-		while (App.pollEvent(Event)) {
-			if (Event.type == sf::Event::Closed)
-				App.close();
-		}
-		App.display();
-	}
+	return EXIT_SUCCESS;
 }
