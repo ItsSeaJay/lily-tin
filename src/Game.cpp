@@ -18,19 +18,23 @@ void LilyTin::Game::update()
 {
 	while (mWindow.isOpen())
 	{
-		sf::Event event;
+		pollEvents();
+	}
+}
 
-		// Handle polled events
-		while (mWindow.pollEvent(event))
+void LilyTin::Game::pollEvents()
+{
+	sf::Event event;
+
+	while (mWindow.pollEvent(event))
+	{
+		switch (event.type)
 		{
-			switch (event.type)
-			{
-			case sf::Event::Closed:
-				mWindow.close();
-				break;
-			default:
-				break;
-			}
+		case sf::Event::Closed:
+			mWindow.close();
+			break;
+		default:
+			break;
 		}
 	}
 }

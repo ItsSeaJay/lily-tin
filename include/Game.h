@@ -13,10 +13,13 @@ namespace LilyTin
 		~Game();
 
 		void start();
+		void pollEvents();
 		void update();
 		void finish();
 
 	private:
+		float mElapsedTime;
+
 		std::string mTitle;
 		sf::Window mWindow;
 	};
