@@ -1,8 +1,8 @@
 #pragma once
 
-#include "..\include\Game.h"
+#include "Game.h"
 
-LilyTin::Game::Game(std::string title) : mTitle(title)
+LilyTin::Game::Game(const std::string& title) : mTitle(title)
 {
 }
 
@@ -12,16 +12,17 @@ LilyTin::Game::~Game()
 
 void LilyTin::Game::start()
 {
-	std::cout << mTitle;
 	mWindow.create(sf::VideoMode(800, 600), mTitle);
 }
 
 void LilyTin::Game::update()
 {
-	while (mWindow.isOpen())
-	{
-		pollEvents();
-	}
+	// Update all the game objects
+}
+
+void LilyTin::Game::render()
+{
+	mWindow.clear(sf::Color::Black);
 }
 
 void LilyTin::Game::pollEvents()
@@ -44,4 +45,9 @@ void LilyTin::Game::pollEvents()
 void LilyTin::Game::finish()
 {
 	std::cout << "Finished";
+}
+
+const sf::RenderWindow& LilyTin::Game::getWindow()
+{
+	return mWindow;
 }

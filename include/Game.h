@@ -4,22 +4,27 @@
 #include <string>
 #include <vector>
 #include "SFML\Window.hpp"
+#include "SFML\Graphics.hpp"
 
 namespace LilyTin
 {
 	class Game
 	{
 	public:
-		Game(std::string title);
+		Game(const std::string& title);
 		~Game();
 
 		void start();
 		void pollEvents();
 		void update();
+		void render();
 		void finish();
+
+		const sf::RenderWindow& getWindow();
 
 	private:
 		std::string mTitle;
-		sf::Window mWindow;
+		sf::RenderWindow mWindow;
+
 	};
 }
