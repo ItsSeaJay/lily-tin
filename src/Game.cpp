@@ -17,12 +17,16 @@ void LilyTin::Game::start()
 
 void LilyTin::Game::update()
 {
-	// Update all the game objects
+
 }
 
 void LilyTin::Game::render()
 {
 	mWindow.clear(sf::Color::Black);
+
+
+
+	mWindow.display();
 }
 
 void LilyTin::Game::pollEvents()
@@ -44,7 +48,7 @@ void LilyTin::Game::pollEvents()
 
 void LilyTin::Game::finish()
 {
-	std::cout << "Finished";
+	std::cout << "Game Over";
 }
 
 const sf::RenderWindow& LilyTin::Game::getWindow()

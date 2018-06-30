@@ -9,6 +9,6 @@ namespace LilyTin
 		~GameObject();
 
 	private:
-
+		bool mDestroyed = false;
 	};
 }
