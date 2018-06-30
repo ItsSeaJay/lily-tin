@@ -10,10 +10,11 @@ set(SOURCES
 	src/Game.cpp
 	src/GameObject.cpp)
 set(INCLUDES
-	include/Game.h
-	include/GameObject.h)
+	src/Game.h
+	src/GameObject.h)
 
 find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
 include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(${PROJECT_SOURCE_DIR}/src)
 add_executable(LilyTin ${SOURCES} ${INCLUDES})
 target_link_libraries(LilyTin sfml-graphics sfml-audio)
