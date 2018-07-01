@@ -15,7 +15,7 @@ void LilyTin::Game::start()
 	mWindow.create(sf::VideoMode(800, 600), mTitle);
 
 	Paddle* paddle = new Paddle();
-	mObjects.push_back(new Paddle());
+	mObjects.push_back(paddle);
 
 	for (GameObject* object : mObjects)
 	{
@@ -23,7 +23,7 @@ void LilyTin::Game::start()
 	}
 }
 
-void LilyTin::Game::update()
+void LilyTin::Game::update(float deltaTime)
 {
 #ifdef LILYTIN_DEBUG
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
@@ -34,7 +34,7 @@ void LilyTin::Game::update()
 
 	for (GameObject* object : mObjects)
 	{
-		object->update();
+		object->update(deltaTime);
 	}
 }
 
@@ -69,8 +69,6 @@ void LilyTin::Game::pollEvents()
 
 void LilyTin::Game::finish()
 {
-	std::cout << "Game Over";
-
 	// Free the memory of all allocated game objects
 	for (GameObject* object : mObjects)
 	{

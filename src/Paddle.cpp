@@ -14,16 +14,16 @@ void LilyTin::Paddle::start()
 	mSprite.setTexture(mTexture);
 }
 
-void LilyTin::Paddle::update()
+void LilyTin::Paddle::update(float deltaTime)
 {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
 	{
-		mTransform.move(0.1f, 0.0f);
+		mTransform.move(-32.0f * deltaTime, 0.0f);
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
 	{
-		mTransform.move(0.1f, 0.0f);
+		mTransform.move(32.0f * deltaTime, 0.0f);
 	}
 }
 

@@ -12,10 +12,11 @@ namespace LilyTin
 	{
 	public:
 		Paddle();
+		LilyTin::Paddle::Paddle(sf::Vector2f position);
 		~Paddle();
 		
 		void start();
-		void update();
+		void update(float deltaTime);
 		void draw(sf::RenderWindow& window);
 
 	private:

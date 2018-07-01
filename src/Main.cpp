@@ -6,13 +6,16 @@
 int main(int argc, char* argv[])
 {
 	LilyTin::Game game("Lily Tin");
+	sf::Clock clock;
 
 	game.start();
 
 	while (game.getWindow().isOpen())
 	{
+		float deltaTime = clock.restart().asSeconds();
+
 		game.pollEvents();
-		game.update();
+		game.update(deltaTime);
 		game.draw();
 	}
 

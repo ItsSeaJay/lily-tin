@@ -18,7 +18,7 @@ namespace LilyTin
 
 		void start();
 		void pollEvents();
-		void update();
+		void update(float deltaTime);
 		void draw();
 		void finish();
 
