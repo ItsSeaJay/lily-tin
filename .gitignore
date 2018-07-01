@@ -7,11 +7,4 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-*.filters
-*.vcxproj
-*.user
-*.sln
-bin/LilyTin\.dir/Debug/
-bin/Win32/Debug/ZERO_CHECK/
-bin/\.vs/LilyTin/v15/
-bin/Debug/
+bin/
