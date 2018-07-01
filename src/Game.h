@@ -5,6 +5,7 @@
 #include <vector>
 #include "SFML\Window.hpp"
 #include "SFML\Graphics.hpp"
+#include "GameObject.h"
 
 namespace LilyTin
 {
@@ -25,6 +26,7 @@ namespace LilyTin
 	private:
 		std::string mTitle;
 		sf::RenderWindow mWindow;
+		std::vector<GameObject*> mObjects;
 
 	};
 }

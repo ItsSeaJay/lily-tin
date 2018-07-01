@@ -24,7 +24,10 @@ void LilyTin::Game::render()
 {
 	mWindow.clear(sf::Color::Black);
 
-
+	for (GameObject* object : mObjects)
+	{
+		object->render();
+	}
 
 	mWindow.display();
 }
