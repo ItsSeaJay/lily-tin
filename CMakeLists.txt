@@ -9,12 +9,10 @@ set(SOURCES
 	src/Main.cpp
 	src/Game.cpp
 	src/GameObject.cpp
-	src/Transform.cpp
 	src/Paddle.cpp)
 set(INCLUDES
 	src/Game.h
 	src/GameObject.h
-	src/Transform.h
 	src/Paddle.h)
 
 find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
