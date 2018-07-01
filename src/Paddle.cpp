@@ -8,3 +8,12 @@ LilyTin::Paddle::~Paddle()
 {
 }
 
+void LilyTin::Paddle::update()
+{
+
+}
+
+void LilyTin::Paddle::draw()
+{
+}
+

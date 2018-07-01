@@ -1,5 +1,7 @@
 #pragma once
 
+#include "SFML/Graphics/Transformable.hpp"
+
 namespace LilyTin
 {
 	class GameObject
@@ -13,6 +15,7 @@ namespace LilyTin
 
 	private:
 		bool mDestroyed = false;
+		sf::Transformable mTransformable;
 
 	};
 }

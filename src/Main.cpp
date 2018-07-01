@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
 	{
 		game.pollEvents();
 		game.update();
-		game.render();
+		game.draw();
 	}
 
 	game.finish();

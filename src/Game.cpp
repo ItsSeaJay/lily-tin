@@ -13,6 +13,9 @@ LilyTin::Game::~Game()
 void LilyTin::Game::start()
 {
 	mWindow.create(sf::VideoMode(800, 600), mTitle);
+
+	Paddle* paddle = new Paddle();
+	mObjects.push_back(new Paddle());
 }
 
 void LilyTin::Game::update()
@@ -55,6 +58,13 @@ void LilyTin::Game::pollEvents()
 void LilyTin::Game::finish()
 {
 	std::cout << "Game Over";
+
+	// Free the memory of all allocated game objects
+	for (GameObject* object : mObjects)
+	{
+		delete object;
+		object = nullptr;
+	}
 }
 
 const sf::RenderWindow& LilyTin::Game::getWindow()
