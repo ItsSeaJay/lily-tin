@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.1)
 
 project(LilyTin)
 
-set(SFML_STATIC_LIBRARIES TRUE)
-
 # Define all of the files that this project will use
 set(SOURCES
 	src/Main.cpp

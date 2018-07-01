@@ -12,6 +12,7 @@ void LilyTin::Paddle::start()
 {
 	mTexture.loadFromFile("../res/PNG/paddleRed.png");
 	mSprite.setTexture(mTexture);
+	mTransform.setPosition(300, 300);
 }
 
 void LilyTin::Paddle::update(float deltaTime)
