@@ -16,9 +16,9 @@ namespace LilyTin
 		virtual void update() = 0;
 		virtual void draw(sf::RenderWindow& window) = 0;
 
-	private:
+	protected:
 		bool mDestroyed = false;
-		sf::Transform mTransform;
+		sf::Transformable mTransform;
 
 	};
 }

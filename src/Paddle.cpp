@@ -18,17 +18,18 @@ void LilyTin::Paddle::update()
 {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
 	{
-		std::cout << "Left";
+		mTransform.move(0.1f, 0.0f);
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
 	{
-		std::cout << "Right";
+		mTransform.move(0.1f, 0.0f);
 	}
 }
 
 void LilyTin::Paddle::draw(sf::RenderWindow& window)
 {
 	window.draw(mSprite);
+	mSprite.setPosition(mTransform.getPosition());
 }
 

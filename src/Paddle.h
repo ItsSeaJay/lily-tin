@@ -19,8 +19,10 @@ namespace LilyTin
 		void draw(sf::RenderWindow& window);
 
 	private:
+		float speed = 1.6f;
+
 		sf::Texture mTexture;
 		sf::Sprite mSprite;
-
+		sf::Vector2f mVelocity;
 	};
 }
