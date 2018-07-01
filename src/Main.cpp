@@ -7,15 +7,25 @@ int main(int argc, char* argv[])
 {
 	LilyTin::Game game("Lily Tin");
 	sf::Clock clock;
+	sf::Time timeSinceLastUpdate = sf::Time::Zero;
+	const sf::Time frameLimit = sf::seconds(1.0f / 60.0f); // 60 frames per second
 
 	game.start();
 
 	while (game.getWindow().isOpen())
 	{
-		float deltaTime = clock.restart().asSeconds();
+		sf::Time elapsedTime = clock.restart();
 
-		game.pollEvents();
-		game.update(deltaTime);
+		timeSinceLastUpdate += elapsedTime;
+
+		while (timeSinceLastUpdate > frameLimit)
+		{
+			timeSinceLastUpdate -= frameLimit;
+
+			game.pollEvents();
+			game.update(frameLimit.asSeconds());
+		}
+		
 		game.draw();
 	}
 

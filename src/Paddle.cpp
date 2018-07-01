@@ -18,12 +18,12 @@ void LilyTin::Paddle::update(float deltaTime)
 {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
 	{
-		mTransform.move(-32.0f * deltaTime, 0.0f);
+		mTransform.move(-128.0f * deltaTime, 0.0f);
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
 	{
-		mTransform.move(32.0f * deltaTime, 0.0f);
+		mTransform.move(128.0f * deltaTime, 0.0f);
 	}
 }
 
