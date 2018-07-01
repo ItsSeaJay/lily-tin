@@ -10,7 +10,8 @@ LilyTin::Paddle::~Paddle()
 
 void LilyTin::Paddle::start()
 {
-
+	mTexture.loadFromFile("../res/PNG/paddleRed.png");
+	mSprite.setTexture(mTexture);
 }
 
 void LilyTin::Paddle::update()
@@ -26,8 +27,8 @@ void LilyTin::Paddle::update()
 	}
 }
 
-void LilyTin::Paddle::draw()
+void LilyTin::Paddle::draw(sf::RenderWindow& window)
 {
-
+	window.draw(mSprite);
 }
 

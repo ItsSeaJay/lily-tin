@@ -21,9 +21,6 @@ void LilyTin::Game::start()
 	{
 		object->start();
 	}
-
-	mTexture.loadFromFile("../res/PNG/paddleRed.png");
-	mSprite.setTexture(mTexture);
 }
 
 void LilyTin::Game::update()
@@ -47,10 +44,8 @@ void LilyTin::Game::draw()
 
 	for (GameObject* object : mObjects)
 	{
-		object->draw();
+		object->draw(mWindow);
 	}
-
-	mWindow.draw(mSprite);
 
 	mWindow.display();
 }
