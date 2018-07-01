@@ -3,6 +3,7 @@
 #include <iostream>
 #include "GameObject.h"
 #include "SFML\Graphics.hpp"
+#include "SFML\Window.hpp"
 
 namespace LilyTin
 {
@@ -18,5 +19,6 @@ namespace LilyTin
 	private:
 		sf::Texture mTexture;
 		sf::Sprite mSprite;
+
 	};
 }
