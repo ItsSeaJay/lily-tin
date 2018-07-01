@@ -6,6 +6,7 @@
 #include "SFML\Window.hpp"
 #include "SFML\Graphics.hpp"
 #include "GameObject.h"
+#include "Paddle.h"
 
 namespace LilyTin
 {
@@ -18,7 +19,7 @@ namespace LilyTin
 		void start();
 		void pollEvents();
 		void update();
-		void render();
+		void draw();
 		void finish();
 
 		const sf::RenderWindow& getWindow();

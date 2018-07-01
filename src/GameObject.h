@@ -9,7 +9,7 @@ namespace LilyTin
 		~GameObject();
 
 		virtual void update() = 0;
-		virtual void render() = 0;
+		virtual void draw() = 0;
 
 	private:
 		bool mDestroyed = false;

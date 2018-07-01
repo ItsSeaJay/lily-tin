@@ -17,16 +17,19 @@ void LilyTin::Game::start()
 
 void LilyTin::Game::update()
 {
-
+	for (GameObject* object : mObjects)
+	{
+		object->update();
+	}
 }
 
-void LilyTin::Game::render()
+void LilyTin::Game::draw()
 {
 	mWindow.clear(sf::Color::Black);
 
 	for (GameObject* object : mObjects)
 	{
-		object->render();
+		object->draw();
 	}
 
 	mWindow.display();
