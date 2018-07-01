@@ -16,6 +16,11 @@ void LilyTin::Game::start()
 
 	Paddle* paddle = new Paddle();
 	mObjects.push_back(new Paddle());
+
+	for (GameObject* object : mObjects)
+	{
+		object->start();
+	}
 }
 
 void LilyTin::Game::update()

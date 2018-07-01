@@ -8,6 +8,13 @@ LilyTin::Paddle::~Paddle()
 {
 }
 
+void LilyTin::Paddle::start()
+{
+	sf::Texture texture;
+	
+	texture.loadFromFile("paddleRed.png");
+}
+
 void LilyTin::Paddle::update()
 {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))

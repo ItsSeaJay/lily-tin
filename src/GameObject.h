@@ -10,12 +10,13 @@ namespace LilyTin
 		GameObject();
 		~GameObject();
 
+		virtual void start() = 0;
 		virtual void update() = 0;
 		virtual void draw() = 0;
 
 	private:
 		bool mDestroyed = false;
-		sf::Transformable mTransformable;
+		sf::Transform mTransform;
 
 	};
 }

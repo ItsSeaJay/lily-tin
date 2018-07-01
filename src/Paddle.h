@@ -13,6 +13,7 @@ namespace LilyTin
 		Paddle();
 		~Paddle();
 		
+		void start();
 		void update();
 		void draw();
 
