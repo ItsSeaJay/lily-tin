@@ -10,9 +10,7 @@ LilyTin::Paddle::~Paddle()
 
 void LilyTin::Paddle::start()
 {
-	sf::Texture texture;
-	
-	texture.loadFromFile("paddleRed.png");
+
 }
 
 void LilyTin::Paddle::update()

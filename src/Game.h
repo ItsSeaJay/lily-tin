@@ -28,6 +28,7 @@ namespace LilyTin
 		std::string mTitle;
 		sf::RenderWindow mWindow;
 		std::vector<GameObject*> mObjects;
-
+		sf::Texture mTexture;
+		sf::Sprite mSprite;
 	};
 }

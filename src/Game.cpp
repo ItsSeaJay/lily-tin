@@ -21,6 +21,8 @@ void LilyTin::Game::start()
 	{
 		object->start();
 	}
+
+	mTexture.loadFromFile("../res/PNG/paddleRed.png");
 }
 
 void LilyTin::Game::update()
