@@ -25,13 +25,6 @@ void LilyTin::Game::start()
 
 void LilyTin::Game::update(float deltaTime)
 {
-#ifdef LILYTIN_DEBUG
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
-	{
-		mWindow.close();
-	}
-#endif
-
 	for (GameObject* object : mObjects)
 	{
 		object->update(deltaTime);

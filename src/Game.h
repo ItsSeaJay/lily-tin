@@ -3,8 +3,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "SFML\Window.hpp"
-#include "SFML\Graphics.hpp"
+#include "SFML/Window.hpp"
+#include "SFML/Graphics.hpp"
 #include "GameObject.h"
 #include "Paddle.h"
 

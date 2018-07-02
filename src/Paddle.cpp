@@ -10,7 +10,7 @@ LilyTin::Paddle::~Paddle()
 
 void LilyTin::Paddle::start()
 {
-	mTexture.loadFromFile("../res/PNG/paddleRed.png");
+	mTexture.loadFromFile("../res/png/paddleRed.png");
 	mSprite.setTexture(mTexture);
 	mTransform.setPosition(300, 300);
 }

@@ -2,9 +2,9 @@
 
 #include <iostream>
 #include "GameObject.h"
-#include "SFML\Graphics.hpp"
-#include "SFML\Graphics\RenderWindow.hpp"
-#include "SFML\Window.hpp"
+#include "SFML/Graphics.hpp"
+#include "SFML/Graphics/RenderWindow.hpp"
+#include "SFML/Window.hpp"
 
 namespace LilyTin
 {
@@ -12,7 +12,6 @@ namespace LilyTin
 	{
 	public:
 		Paddle();
-		LilyTin::Paddle::Paddle(sf::Vector2f position);
 		~Paddle();
 		
 		void start();
