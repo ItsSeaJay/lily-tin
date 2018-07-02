@@ -7,11 +7,13 @@ set(SOURCES
 	src/Main.cpp
 	src/Game.cpp
 	src/GameObject.cpp
-	src/Paddle.cpp)
+	src/Paddle.cpp
+	src/Ball.cpp)
 set(INCLUDES
 	src/Game.h
 	src/GameObject.h
-	src/Paddle.h)
+	src/Paddle.h
+	src/Ball.h)
 
 find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
 include_directories(${PROJECT_SOURCE_DIR}/include)

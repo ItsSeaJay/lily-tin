@@ -14,8 +14,13 @@ void LilyTin::Game::start()
 {
 	mWindow.create(sf::VideoMode(800, 600), mTitle);
 
+	// Add a paddle to the game
 	Paddle* paddle = new Paddle();
 	mObjects.push_back(paddle);
+
+	// Add a ball to the game
+	Ball* ball = new Ball();
+	mObjects.push_back(ball);
 
 	for (GameObject* object : mObjects)
 	{

@@ -18,15 +18,22 @@ void LilyTin::Paddle::start()
 		mSprite.getLocalBounds().width / 2.0f, // X
 		mSprite.getLocalBounds().height / 2.0f // Y
 	);
+	// Move the sprite to the top left
+	mTransform.setPosition(64.0f, 32.0f);
 }
 
 void LilyTin::Paddle::update(float deltaTime)
 {
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
+	bool left = sf::Keyboard::isKeyPressed(sf::Keyboard::Left) ||
+		sf::Keyboard::isKeyPressed(sf::Keyboard::A);
+	bool right = sf::Keyboard::isKeyPressed(sf::Keyboard::Right) ||
+		sf::Keyboard::isKeyPressed(sf::Keyboard::D);
+
+	if (left)
 	{
 		mVelocity = sf::Vector2f(-1.0f, 0.0f);
 	}
-	else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
+	else if (right)
 	{
 		mVelocity = sf::Vector2f(1.0f, 0.0f);
 	}

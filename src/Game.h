@@ -7,6 +7,7 @@
 #include "SFML/Graphics.hpp"
 #include "GameObject.h"
 #include "Paddle.h"
+#include "Ball.h"
 
 namespace LilyTin
 {
