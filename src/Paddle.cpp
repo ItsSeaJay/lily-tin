@@ -12,20 +12,29 @@ void LilyTin::Paddle::start()
 {
 	mTexture.loadFromFile("../res/png/paddleRed.png");
 	mSprite.setTexture(mTexture);
-	mTransform.setPosition(300, 300);
+	mSprite.setOrigin
+	(
+		mSprite.getLocalBounds().width / 2.0f, // X
+		mSprite.getLocalBounds().height / 2.0f // Y
+	);
 }
 
 void LilyTin::Paddle::update(float deltaTime)
 {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
 	{
-		mTransform.move(-128.0f * deltaTime, 0.0f);
+		mVelocity = sf::Vector2f(-1.0f, 0.0f);
+	}
+	else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
+	{
+		mVelocity = sf::Vector2f(1.0f, 0.0f);
+	}
+	else
+	{
+		mVelocity = sf::Vector2f(0.0f, 0.0f);
 	}
 
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
-	{
-		mTransform.move(128.0f * deltaTime, 0.0f);
-	}
+	mTransform.move(mVelocity * mSpeed * deltaTime);
 }
 
 void LilyTin::Paddle::draw(sf::RenderWindow& window)
