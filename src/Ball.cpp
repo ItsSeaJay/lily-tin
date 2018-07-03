@@ -10,7 +10,7 @@ LilyTin::Ball::~Ball()
 
 void LilyTin::Ball::start()
 {
-	mTexture.loadFromFile("../res/png/ballGrey.png");
+	mTexture.loadFromFile("res/png/ballGrey.png");
 	mSprite.setTexture(mTexture);
 	// Set the origin to the center of the sprite
 	mSprite.setOrigin

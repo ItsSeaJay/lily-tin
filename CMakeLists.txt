@@ -25,7 +25,7 @@ set(INCLUDES
 # Windows: C:\Program Files\SFML-2.5.0
 # Linux: Build SFML yourself, then attempt a build. If that doesn't work,
 #        then set SFML_DIR to the location of your install
-# Mac: 
+# Mac: ...
 find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
 
 # Add the include directory into the linker, so the header files can be found

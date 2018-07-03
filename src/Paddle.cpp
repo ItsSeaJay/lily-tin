@@ -10,7 +10,7 @@ LilyTin::Paddle::~Paddle()
 
 void LilyTin::Paddle::start()
 {
-	mTexture.loadFromFile("../res/png/paddleRed.png");
+	mTexture.loadFromFile("res/png/paddleRed.png");
 	mSprite.setTexture(mTexture);
 	// Set the origin to the center of the sprite
 	mSprite.setOrigin
