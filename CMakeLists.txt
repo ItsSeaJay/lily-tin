@@ -23,8 +23,8 @@ set(INCLUDES
 # Find version 2.5 of the SFML library, including the necessary modules
 # The files for SFML aren't included in the repository, so for the best results:
 # Windows: C:\Program Files\SFML-2.5.0
-# Linux: Build SFML yourself, then attempt a build. If that doesn't work,
-#        then set SFML_DIR to the location of your install
+# Linux: Build SFML yourself, then generate. If that doesn't work,
+#        then set SFML_DIR to the location of your install and try again
 # Mac: ...
 find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
 
