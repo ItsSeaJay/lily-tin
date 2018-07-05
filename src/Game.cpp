@@ -12,7 +12,16 @@ LilyTin::Game::~Game()
 
 void LilyTin::Game::start()
 {
-	mWindow.create(sf::VideoMode(800, 600), mTitle);
+	// Create a new window
+	mWindow.create
+	(
+		sf::VideoMode(800, 600),
+		mTitle
+	);
+
+	// Set the view to the default view of the window
+	mView = mWindow.getDefaultView();
+	mWindow.setView(mView);
 
 	// Add a paddle to the game
 	Paddle* paddle = new Paddle();

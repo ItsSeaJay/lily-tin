@@ -28,7 +28,7 @@ namespace LilyTin
 	private:
 		std::string mTitle;
 		sf::RenderWindow mWindow;
-		sf::View view;
+		sf::View mView;
 		std::vector<GameObject*> mObjects;
 	};
 }
