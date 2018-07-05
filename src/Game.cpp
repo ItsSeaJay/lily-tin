@@ -15,8 +15,9 @@ void LilyTin::Game::start()
 	// Create a new window
 	mWindow.create
 	(
-		sf::VideoMode(800, 600),
-		mTitle
+		sf::VideoMode(1024, 576),
+		mTitle,
+		sf::Style::Close | sf::Style::Resize
 	);
 
 	// Add a paddle to the game
@@ -64,7 +65,10 @@ void LilyTin::Game::pollEvents()
 		case sf::Event::Closed:
 			mWindow.close();
 			break;
-		default:
+		case sf::Event::Resized:
+			// update the view to the new size of the window
+	        sf::FloatRect visibleArea(0, 0, event.size.width, event.size.height);
+	        mWindow.setView(sf::View(visibleArea));
 			break;
 		}
 	}

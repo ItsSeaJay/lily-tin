@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 	LilyTin::Game game("Lily Tin");
 	sf::Clock clock;
 	sf::Time lag = sf::Time::Zero;
-	const sf::Time frameLimit = sf::seconds(1.0f / 60.0f); // 60 frames per second
+	const sf::Time frameLimit = sf::seconds(1.0f / 60.0f); // 60 FPS limit
 
 	game.start();
 
