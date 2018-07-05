@@ -19,10 +19,6 @@ void LilyTin::Game::start()
 		mTitle
 	);
 
-	// Set the view to the default view of the window
-	mView = mWindow.getDefaultView();
-	mWindow.setView(mView);
-
 	// Add a paddle to the game
 	Paddle* paddle = new Paddle();
 	mObjects.push_back(paddle);

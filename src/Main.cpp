@@ -20,6 +20,7 @@ int main(int argc, char* argv[])
 		// Accumulate lag depending on how long the frame took to render
 		lag += elapsedTime;
 
+		// Update the game until there is no lag remaining
 		while (lag > frameLimit)
 		{
 			lag -= frameLimit;
