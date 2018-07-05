@@ -66,7 +66,7 @@ void LilyTin::Game::pollEvents()
 			mWindow.close();
 			break;
 		case sf::Event::Resized:
-			// update the view to the new size of the window
+			// Update the view to the new size of the window
 	        sf::FloatRect visibleArea(0, 0, event.size.width, event.size.height);
 	        mWindow.setView(sf::View(visibleArea));
 			break;
