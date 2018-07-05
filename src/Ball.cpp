@@ -20,7 +20,7 @@ void LilyTin::Ball::start()
 	);
 
 	// Make the ball move upwards
-	mVelocity = sf::Vector2f(0.0f, 1.0f);
+	mVelocity = sf::Vector2f(0.0f, -1.0f);
 }
 
 void LilyTin::Ball::update(float deltaTime)

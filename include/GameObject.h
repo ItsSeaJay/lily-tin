@@ -16,9 +16,10 @@ namespace LilyTin
 		virtual void update(float deltaTime) = 0;
 		virtual void draw(sf::RenderWindow& window) = 0;
 
+		sf::Transformable& getTransform();
+
 	protected:
 		bool mDestroyed = false;
 		sf::Transformable mTransform;
-
 	};
 }

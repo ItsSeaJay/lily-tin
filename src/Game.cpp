@@ -4,6 +4,18 @@
 
 LilyTin::Game::Game(const std::string& title) : mTitle(title)
 {
+	// Create a new window
+	mWindow.create(sf::VideoMode(1024, 576), mTitle, sf::Style::Default);
+
+	// Add a paddle to the game
+	Paddle* paddle = new Paddle();
+	paddle->getTransform().setPosition(mWindow.getSize().x / 2.0f, mWindow.getSize().y - 32.0f);
+	mObjects.push_back(paddle);
+
+	// Add a ball to the game
+	Ball* ball = new Ball();
+	mObjects.push_back(ball);
+	ball->getTransform().setPosition(mWindow.getSize().x / 2.0f, mWindow.getSize().y - 64.0f);
 }
 
 LilyTin::Game::~Game()
@@ -12,22 +24,6 @@ LilyTin::Game::~Game()
 
 void LilyTin::Game::start()
 {
-	// Create a new window
-	mWindow.create
-	(
-		sf::VideoMode(1024, 576),
-		mTitle,
-		sf::Style::Close | sf::Style::Resize
-	);
-
-	// Add a paddle to the game
-	Paddle* paddle = new Paddle();
-	mObjects.push_back(paddle);
-
-	// Add a ball to the game
-	Ball* ball = new Ball();
-	mObjects.push_back(ball);
-
 	for (GameObject* object : mObjects)
 	{
 		object->start();
@@ -67,8 +63,8 @@ void LilyTin::Game::pollEvents()
 			break;
 		case sf::Event::Resized:
 			// Update the view to the new size of the window
-	        sf::FloatRect visibleArea(0, 0, event.size.width, event.size.height);
-	        mWindow.setView(sf::View(visibleArea));
+			sf::FloatRect visibleArea(0, 0, float(event.size.width), float(event.size.height));
+			mWindow.setView(sf::View(visibleArea));
 			break;
 		}
 	}
