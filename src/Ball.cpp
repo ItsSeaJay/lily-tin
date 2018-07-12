@@ -19,8 +19,8 @@ void LilyTin::Ball::start()
 		mSprite.getLocalBounds().height / 2.0f // Y
 	);
 
-	// Make the ball move upwards
-	mVelocity = sf::Vector2f(0.0f, -1.0f);
+	// Make the ball move upwards and to the right
+	mVelocity = sf::Vector2f(64.0f, -64.0f);
 }
 
 void LilyTin::Ball::update(float deltaTime)
@@ -48,7 +48,7 @@ void LilyTin::Ball::update(float deltaTime)
 	// TODO: Make this sensitive to the height of the window
 	if (mTransform.getPosition().y > (576 - 16))
 	{
-		mVelocity.y *= -mRestitution;
+		mVelocity.y *= -mRestitution.ground;
 	}
 
 	mTransform.move(mVelocity * deltaTime);
