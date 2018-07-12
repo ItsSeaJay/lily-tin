@@ -1,5 +1,6 @@
 #pragma once
 
+#include <iostream>
 #include "GameObject.h"
 #include "SFML/Window.hpp"
 #include "SFML/Graphics.hpp"
@@ -17,7 +18,9 @@ namespace LilyTin
 		void draw(sf::RenderWindow& window);
 
 	private:
-		float mSpeed = 0.0f;
+		const float mGravity = 2.0f;
+		const float mRestitution = 1.0f;
+		const float mTerminalVelocity = 256.0f;
 
 		sf::Texture mTexture;
 		sf::Sprite mSprite;

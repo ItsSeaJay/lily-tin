@@ -15,7 +15,7 @@ LilyTin::Game::Game(const std::string& title) : mTitle(title)
 	// Add a ball to the game
 	Ball* ball = new Ball();
 	mObjects.push_back(ball);
-	ball->getTransform().setPosition(mWindow.getSize().x / 2.0f, mWindow.getSize().y - 64.0f);
+	ball->getTransform().setPosition(mWindow.getSize().x / 2.0f, mWindow.getSize().y / 2.0f);
 }
 
 LilyTin::Game::~Game()
