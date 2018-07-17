@@ -38,6 +38,17 @@ void LilyTin::Game::update(float deltaTime)
 	}
 }
 
+void LilyTin::Game::detectCollisions()
+{
+	for (GameObject* first : mObjects)
+	{
+		for (GameObject* second : mObjects)
+		{
+			// TODO: Collision between two objects
+		}
+	}
+}
+
 void LilyTin::Game::draw()
 {
 	mWindow.clear(sf::Color::Black);

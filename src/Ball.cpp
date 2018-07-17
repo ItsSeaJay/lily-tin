@@ -54,6 +54,11 @@ void LilyTin::Ball::update(float deltaTime)
 	mTransform.move(mVelocity * deltaTime);
 }
 
+void LilyTin::Ball::collision()
+{
+	
+}
+
 void LilyTin::Ball::draw(sf::RenderWindow& window)
 {
 	window.draw(mSprite);

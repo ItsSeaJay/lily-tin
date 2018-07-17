@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <map>
 #include <string>
 #include <vector>
 #include "SFML/Window.hpp"
@@ -20,6 +21,8 @@ namespace LilyTin
 		void start();
 		void pollEvents();
 		void update(float deltaTime);
+		void detectCollisions();
+		void cleanup();
 		void draw();
 		void finish();
 

@@ -20,13 +20,14 @@ int main(int argc, char* argv[])
 		// Accumulate lag depending on how long the frame took to render
 		lag += elapsedTime;
 
-		// Update the game until there is no lag remaining
+		// Perform gameplay functions until there is no lag remaining
 		while (lag > frameLimit)
 		{
 			lag -= frameLimit;
 
 			game.pollEvents();
 			game.update(frameLimit.asSeconds());
+			game.detectCollisions();
 		}
 		
 		game.draw();

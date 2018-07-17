@@ -16,6 +16,7 @@ namespace LilyTin
 		
 		void start();
 		void update(float deltaTime);
+		void collision();
 		void draw(sf::RenderWindow& window);
 
 	private:
