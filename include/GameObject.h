@@ -20,10 +20,12 @@ namespace LilyTin
 		virtual void draw(sf::RenderWindow& window) = 0;
 
 		sf::Transformable& getTransform();
+		const sf::FloatRect& getBoundingBox() const;
 
 	protected:
 		std::string tag;
 		bool mDestroyed = false;
 		sf::Transformable mTransform;
+		sf::FloatRect mBoundingBox;
 	};
 }

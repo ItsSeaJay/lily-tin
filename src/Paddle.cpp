@@ -34,12 +34,14 @@ void LilyTin::Paddle::update(float deltaTime)
 		mVelocity = sf::Vector2f(0.0f, 0.0f);
 	}
 
+	mBoundingBox = mSprite.getLocalBounds();
+
 	mTransform.move(mVelocity * mSpeed * deltaTime);
 }
 
 void LilyTin::Paddle::collision()
 {
-
+	std::cout << "Paddle Collision!";
 }
 
 void LilyTin::Paddle::draw(sf::RenderWindow& window)

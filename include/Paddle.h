@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <string>
 #include "GameObject.h"
 #include "SFML/Graphics.hpp"
 #include "SFML/Graphics/RenderWindow.hpp"

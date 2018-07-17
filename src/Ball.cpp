@@ -51,12 +51,14 @@ void LilyTin::Ball::update(float deltaTime)
 		mVelocity.y *= -mRestitution.ground;
 	}
 
+	mBoundingBox = mSprite.getLocalBounds();
+
 	mTransform.move(mVelocity * deltaTime);
 }
 
 void LilyTin::Ball::collision()
 {
-	
+
 }
 
 void LilyTin::Ball::draw(sf::RenderWindow& window)
