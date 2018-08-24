@@ -7,7 +7,7 @@ rem Regenerate the Visual Studio Solution
 cmake . bin
 
 rem Build the solution into an executable
-msbuild bin/LilyTin.sln
+msbuild bin\LilyTin.sln
 
 rem If the build succeeded
 if %ERRORLEVEL% == 0 (

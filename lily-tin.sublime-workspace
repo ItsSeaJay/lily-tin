@@ -1,0 +1,1351 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"int",
+				"intersects"
+			],
+			[
+				"get",
+				"getBoundingBox"
+			],
+			[
+				"Game",
+				"GameObject"
+			],
+			[
+				"for",
+				"for"
+			],
+			[
+				"G",
+				"Game"
+			],
+			[
+				"Lily",
+				"LilyTin"
+			],
+			[
+				"cre",
+				"credits.margin"
+			],
+			[
+				"ke",
+				"keyboard"
+			],
+			[
+				"opening",
+				"openingTimer"
+			],
+			[
+				"open",
+				"openingTimer"
+			],
+			[
+				"Text",
+				"TextBubble"
+			],
+			[
+				"ope",
+				"openingTimer"
+			],
+			[
+				"Tex",
+				"TextBubble"
+			],
+			[
+				"mouse",
+				"mousejustpressed"
+			],
+			[
+				"mous",
+				"mouseY"
+			],
+			[
+				"moue",
+				"mouseX"
+			],
+			[
+				"sma",
+				"smashedImage"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"Te",
+				"TextBubble"
+			],
+			[
+				"text",
+				"textDelta"
+			],
+			[
+				"pos",
+				"posessable"
+			],
+			[
+				"is",
+				"isrepeat"
+			],
+			[
+				"key",
+				"keypressed"
+			],
+			[
+				"fun",
+				"function\tfunction"
+			],
+			[
+				"tile",
+				"tileSize"
+			],
+			[
+				"fo",
+				"for\tfor i=1,10"
+			],
+			[
+				"mSp",
+				"mSprite"
+			],
+			[
+				"m",
+				"mVelocity"
+			],
+			[
+				"Read",
+				"ReadyToRumble"
+			],
+			[
+				"ma",
+				"main\tmain()"
+			],
+			[
+				"add_",
+				"add_executable\tcommand"
+			],
+			[
+				"set",
+				"setPosition"
+			],
+			[
+				"Trans",
+				"Transform.h"
+			],
+			[
+				"PROJ",
+				"PROJECT_SOURCE_DIR\tbuiltin"
+			],
+			[
+				"poj",
+				"PROJECT_NAME\tbuiltin"
+			],
+			[
+				"tar",
+				"target_link_libraries\tcommand"
+			],
+			[
+				"proje",
+				"PROJECT_NAME\tbuiltin"
+			],
+			[
+				"SOURC",
+				"PROJECT_SOURCE_DIR\tbuiltin"
+			],
+			[
+				"find_pa",
+				"find_package\tcommand"
+			],
+			[
+				"proj",
+				"PROJECT_BINARY_DIR\tbuiltin"
+			],
+			[
+				"include",
+				"include_directories\tcommand"
+			],
+			[
+				"inve",
+				"inverse_words"
+			],
+			[
+				"re",
+				"regular_alphabet"
+			],
+			[
+				"regular",
+				"regular_words"
+			],
+			[
+				"inv",
+				"inverse_word"
+			],
+			[
+				"f",
+				"fun\tfunction"
+			],
+			[
+				"csrf_",
+				"csrf_hash"
+			],
+			[
+				"author",
+				"author_model"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"form",
+				"form#login"
+			],
+			[
+				"site",
+				"site_url"
+			],
+			[
+				"format_",
+				"format_entries"
+			],
+			[
+				"order",
+				"order_by"
+			],
+			[
+				"sear",
+				"search_bar"
+			],
+			[
+				"searc",
+				"search_bar.html"
+			],
+			[
+				"total_",
+				"total_rows"
+			],
+			[
+				"get_entry",
+				"get_entry_page"
+			],
+			[
+				"Ent",
+				"Entry_model"
+			],
+			[
+				"total",
+				"total_entries"
+			],
+			[
+				"appli",
+				"application_model"
+			],
+			[
+				"rand",
+				"randint"
+			],
+			[
+				"ra",
+				"randint"
+			],
+			[
+				"En",
+				"Entry_Factory"
+			],
+			[
+				"format",
+				"format_entries"
+			],
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"str",
+				"strtotime"
+			],
+			[
+				"entry",
+				"entry_model"
+			],
+			[
+				"ent",
+				"entry_model"
+			],
+			[
+				"app",
+				"application_folder"
+			],
+			[
+				"syst",
+				"system_path"
+			],
+			[
+				"__",
+				"__DIR__"
+			],
+			[
+				"sy",
+				"system_path"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"url",
+				"URL"
+			],
+			[
+				"Node",
+				"Node2D"
+			],
+			[
+				"toggle",
+				"toggleNavbar"
+			],
+			[
+				"non",
+				"none\tdisplay"
+			],
+			[
+				"abo",
+				"absolute\tposition"
+			],
+			[
+				"u-",
+				"u-center-horizontal"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"flex",
+				"flex-shrink\tproperty"
+			],
+			[
+				"instance",
+				"instance_create()"
+			],
+			[
+				"rotate",
+				"rotate(...)"
+			],
+			[
+				"recom",
+				"recomendations"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"u-c",
+				"u-center-vertical"
+			],
+			[
+				"bord",
+				"border-box\tbox-sizing"
+			],
+			[
+				"white",
+				"white-space\tproperty"
+			],
+			[
+				"pass",
+				"password_hash"
+			],
+			[
+				"pas",
+				"password_hash"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"get_",
+				"get_dom_elements"
+			],
+			[
+				"csrf",
+				"csrf_token"
+			],
+			[
+				"passwor",
+				"password_hash"
+			],
+			[
+				"index",
+				"index_page"
+			],
+			[
+				"inde",
+				"index_page"
+			],
+			[
+				"parser",
+				"parser_data"
+			],
+			[
+				"Pass",
+				"Password_Hasher_PHP"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"u-ce",
+				"u-center-horizontal"
+			],
+			[
+				"u-cen",
+				"u-center-horizontal"
+			],
+			[
+				"min-",
+				"min-height\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Lua Love/LuaLove.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"save proj",
+				"Project: Save As"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"a",
+				"Project: Add Folder"
+			],
+			[
+				"lu",
+				"Set Syntax: Lua"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"lo",
+				"Set Syntax: Lua (Love)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"cma",
+				"Set Syntax: CMake"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"reconn",
+				"Discord Rich Presence: Reconnect to Discord"
+			],
+			[
+				"lov",
+				"Set Syntax: Lua (Love)"
+			],
+			[
+				"love",
+				"Set Syntax: Lua (Love)"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"pref",
+				"Preferences: Settings"
+			],
+			[
+				"prefer",
+				"Preferences: Settings"
+			],
+			[
+				"preferences",
+				"Preferences: Settings"
+			],
+			[
+				"run",
+				"Build With: LuaLove - Run"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packageresour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ope",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"",
+				"Build With: Lua"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ri",
+				"Preferences: Discord Rich Presence Settings"
+			],
+			[
+				"rich",
+				"Discord Rich Presence: Reconnect to Discord"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"gdsc",
+				"Set Syntax: GDScript (Godot Engine)"
+			],
+			[
+				"settings",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"godo",
+				"Set Syntax: GDScript (Godot Engine)"
+			],
+			[
+				"fold",
+				"Project: Add Folder"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"add fo",
+				"Project: Add Folder"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toggle sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"color",
+				"Color Picker: Insert Color"
+			],
+			[
+				"markdown",
+				"MarkdownLivePreview: Clear the cache"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"folde",
+				"Project: Add Folder"
+			],
+			[
+				"side ba",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package controle:",
+				"Package Control: List Packages"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"toggle si",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toggle",
+				"View: Toggle Menu"
+			],
+			[
+				"proje",
+				"Project: Refresh Folders"
+			],
+			[
+				"projec",
+				"Project: Add Folder"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 158.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/MEGA/PROJECTS/lily-tin"
+	],
+	"file_history":
+	[
+		"/D/MEGA/PROJECTS/lily-tin/.gitignore",
+		"/C/Users/user/Desktop/Minecraft Server/server.properties",
+		"/D/MEGA/BACKUP/Minecraft Server/2018.07.19/ops.json",
+		"/C/Users/user/Desktop/Minecraft Server/whitelist.json",
+		"/C/Users/user/Desktop/Minecraft Server/eula.txt",
+		"/C/Users/user/Desktop/Minecraft Server/run.bat",
+		"/C/Users/user/Desktop/Minecraft Server/banned-ips.json",
+		"/D/MEGA/PROJECTS/lily-tin/src/Ball.cpp",
+		"/D/MEGA/PROJECTS/lily-tin/src/Paddle.cpp",
+		"/D/MEGA/PROJECTS/lily-tin/src/GameObject.cpp",
+		"/D/MEGA/PROJECTS/lily-tin/src/Main.cpp",
+		"/D/MEGA/PROJECTS/lily-tin/src/Game.cpp",
+		"/D/MEGA/PROJECTS/lily-tin/include/Paddle.h",
+		"/D/MEGA/PROJECTS/lily-tin/include/Ball.h",
+		"/D/MEGA/PROJECTS/lily-tin/include/Game.h",
+		"/D/MEGA/PROJECTS/lily-tin/include/GameObject.h",
+		"/D/Directories/Programs/Famitracker 0.4.6/readme.txt",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/Furniture.lua",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/Player.lua",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/TextBubble.lua",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/main.lua",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/IOU.md",
+		"/D/itch.io/apps/Boarexe/options.ini",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/bin/OscarTheGhost/credits.txt",
+		"/C/Users/user/AppData/Local/Temp/7zO8157003B/credits.txt",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/credits.txt",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/credits.txt",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/mousejustpressed.lua",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/cam.lua",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/keyjustpressed.lua",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/Interactable.lua",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/conf.lua",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/justpressed.lua",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/Posessable.lua",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/debug.bat",
+		"/D/MEGA/PROJECTS/gdl-july-jam-2018/src/gamera.lua",
+		"/D/MEGA/PROJECTS/ready-to-rumble/src/Main.cpp",
+		"/D/MEGA/PROJECTS/ready-to-rumble/CMakeLists.txt",
+		"/C/Program Files (x86)/SDL2/cmake/SDL2Targets.cmake",
+		"/C/Program Files (x86)/SDL2/cmake/SDL2Config.cmake",
+		"/D/MEGA/PROJECTS/SDL2-2.0.8/docs/README-cmake.md",
+		"/D/MEGA/PROJECTS/SDL2-2.0.8/INSTALL.txt",
+		"/C/Program Files/SDL2-2.0.8/SDL2Config.cmake",
+		"/D/renpy-6.99.14.3-sdk/tutorial/game/script.rpy",
+		"/D/MEGA/PROJECTS/Test/game/script.rpy",
+		"/D/MEGA/PROJECTS/Test/dialogue.txt",
+		"/D/MEGA/PROJECTS/Test/game/options.rpy",
+		"/D/MEGA/PROJECTS/Test/game/screens.rpy",
+		"/D/MEGA/PROJECTS/Test/game/gui.rpy",
+		"/D/MEGA/PROJECTS/lily-tin/CMakeLists.txt",
+		"/D/MEGA/PROJECTS/sea-jay-blog/_drafts/how-to-find-sfml-2.5.0-with-cmake.md",
+		"/D/renpy-6.99.14.3-sdk/doc/index.html",
+		"/D/MEGA/PROJECTS/sea-jay-blog/_drafts/random-indie-game.txt",
+		"/D/MEGA/PROJECTS/sea-jay-blog/_drafts/announcing-project-lily-tin.md",
+		"/D/XAMPP/htdocs/firefolio/application/config/database.php",
+		"/D/MEGA/PROJECTS/lily-tin/debug.bat",
+		"/D/MEGA/PROJECTS/sea-jay-blog/_config.yml",
+		"/D/MEGA/PROJECTS/sea-jay-blog/index.md",
+		"/D/MEGA/PROJECTS/sea-jay-blog/index.html",
+		"/D/MEGA/PROJECTS/sea-jay-blog/_posts/2018-07-04-hello-world.md",
+		"/D/MEGA/PROJECTS/myblog/index.html",
+		"/D/MEGA/PROJECTS/my-awesome-site/about.md",
+		"/D/MEGA/PROJECTS/lily-tin/make.bat",
+		"/D/MEGA/PROJECTS/lily-tin/build.bat",
+		"/D/MEGA/PROJECTS/lily-tin/run.bat",
+		"/D/MEGA/PROJECTS/lily-tin/bin/CMakeCache.txt",
+		"/D/MEGA/PROJECTS/lily-tin/src/Transform.h",
+		"/D/MEGA/PROJECTS/lily-tin/src/Transform.cpp",
+		"/D/MEGA/PROJECTS/lily-tin/src/Paddle.h",
+		"/D/MEGA/PROJECTS/lily-tin/res/readme.txt",
+		"/D/MEGA/PROJECTS/lily-tin/Build your SFML project with CMake.md",
+		"/D/MEGA/PROJECTS/lily-tin/lib/cmake/SFML/SFMLConfig.cmake",
+		"/C/Users/user/Downloads/Program Downloads/SFML-2.5.0-windows-vc15-32-bit/SFML-2.5.0/lib/cmake/SFML/SFMLConfig.cmake",
+		"/D/MEGA/PROJECTS/ready-to-rumble/main.lua",
+		"/D/MEGA/PROJECTS/lateral-brute/lateral_brute.py",
+		"/D/MEGA/PROJECTS/lateral-brute/build/result.txt",
+		"/D/MEGA/PROJECTS/lateral-brute/res/inverse_alphabet.txt",
+		"/D/MEGA/PROJECTS/lateral-brute/res/alphabet.txt",
+		"/D/MEGA/PROJECTS/lateral-brute/res/upside_down_letters.txt",
+		"/D/MEGA/PROJECTS/lateral-brute/__init__.py",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/Lua/Snippets/function-(fun).sublime-snippet",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/Lua/Snippets/function-(function).sublime-snippet",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/JavaScript/Symbol List Function.tmPreferences",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/JavaScript/JSON.sublime-syntax",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/JavaScript/Indexed Symbols.tmPreferences",
+		"/C/Users/user/Downloads/Program Downloads/pico-8/carts/picoracer2048.p8",
+		"/C/Users/user/Downloads/Program Downloads/pico-8/carts/Hug Arena.p8",
+		"/C/Users/user/Downloads/Program Downloads/pico-8/carts/Celeste Classic.p8",
+		"/C/Users/user/Downloads/Program Downloads/pico-8/carts/PICORACER-2048.p8",
+		"/C/Users/user/Downloads/Program Downloads/pico-8/carts/Dusk Child v1.4.p8",
+		"/C/Users/user/Downloads/Program Downloads/pico-8/carts/Celeste Classic v1.0.p8",
+		"/C/Users/user/AppData/Roaming/pico-8/carts/downloads/celeste.p8",
+		"/D/XAMPP/htdocs/thundertome/public/assets/js/login.js",
+		"/D/XAMPP/htdocs/thundertome/application/controllers/Login.php",
+		"/D/XAMPP/htdocs/thundertome/application/views/login/form.html",
+		"/D/XAMPP/htdocs/thundertome/public/assets/js/debounce.js",
+		"/D/XAMPP/htdocs/thundertome/application/views/journal/search/bar.html",
+		"/D/XAMPP/htdocs/thundertome/application/views/journal/search/results.html",
+		"/D/XAMPP/htdocs/thundertome/application/config/config.php",
+		"/D/XAMPP/htdocs/thundertome/application/controllers/Journal.php",
+		"/D/XAMPP/htdocs/thundertome/application/models/Author_model.php",
+		"/D/XAMPP/htdocs/thundertome/application/views/journal/page.html",
+		"/D/XAMPP/htdocs/thundertome/application/models/Application_model.php",
+		"/D/XAMPP/htdocs/thundertome/README.md",
+		"/D/XAMPP/htdocs/thundertome/utilities/templates/application/controller.template.php",
+		"/D/XAMPP/htdocs/thundertome/application/models/Entry_model.php",
+		"/D/XAMPP/htdocs/thundertome/application/views/journal/entry.html",
+		"/D/XAMPP/htdocs/codeigniter/3.1.9/application/controllers/Welcome.php",
+		"/D/XAMPP/htdocs/codeigniter/3.1.8/application/views/welcome_message.php",
+		"/D/XAMPP/htdocs/thundertome/application/views/journal/results.html",
+		"/D/XAMPP/htdocs/thundertome/application/views/journal/search_bar.html",
+		"/D/XAMPP/htdocs/thundertome/application/views/journal/search/search_bar.html",
+		"/D/XAMPP/htdocs/thundertome/application/config/routes.php",
+		"/D/XAMPP/htdocs/thundertome/application/views/boilerplate.html",
+		"/D/XAMPP/htdocs/thundertome/thundertome.sql",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/database.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/config.php",
+		"/C/Users/user/AppData/Local/Temp/fz3temp-2/index.php",
+		"/D/XAMPP/htdocs/thundertome/application/config/pagination.php",
+		"/D/XAMPP/htdocs/thundertome/application/views/page.html",
+		"/D/XAMPP/htdocs/thundertome/application/views/journal.html",
+		"/D/XAMPP/htdocs/thundertome/utilities/py/factories/entry_factory.py",
+		"/D/XAMPP/htdocs/thundertome/utilities/py/factories/controller_factory.py",
+		"/D/XAMPP/htdocs/thundertome/utilities/templates/queries/insert_entry.sql",
+		"/D/XAMPP/htdocs/thundertome/insert_entries.sql",
+		"/D/XAMPP/htdocs/thundertome/utilities/create_entries.bat"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 178.0,
+		"where_history":
+		[
+			"src/*.lua"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"64",
+			"Koenig",
+			"destroyed",
+			"350",
+			"openingtimer",
+			"justpressed",
+			"camera",
+			"Interactable",
+			"justPressed",
+			"justpressed",
+			"player",
+			"include",
+			"64",
+			"& ",
+			"window",
+			"view",
+			"SFMLTest",
+			"sfml_",
+			"player1Joystick",
+			"load",
+			"regular_alphabet"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"keyjustpressed",
+			"cam",
+			"Furniture",
+			"justpressed",
+			"self"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 75.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lily-tin.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"game",
+				"src\\GameObject.cpp"
+			],
+			[
+				"gam",
+				"src\\Game.cpp"
+			],
+			[
+				"bal",
+				"src\\Ball.cpp"
+			],
+			[
+				"ball",
+				"include\\Ball.h"
+			],
+			[
+				"pa",
+				"src\\Paddle.cpp"
+			],
+			[
+				"gameob",
+				"include\\GameObject.h"
+			],
+			[
+				"io",
+				"IOU.md"
+			],
+			[
+				"te",
+				"src\\TextBubble.lua"
+			],
+			[
+				"mou",
+				"src\\mousejustpressed.lua"
+			],
+			[
+				"fu",
+				"src\\Furniture.lua"
+			],
+			[
+				"con",
+				"src\\conf.lua"
+			],
+			[
+				"ju",
+				"src\\justpressed.lua"
+			],
+			[
+				"tex",
+				"src\\TextBubble.lua"
+			],
+			[
+				"gameobj",
+				"include\\GameObject.h"
+			],
+			[
+				"ga",
+				"include\\Game.h"
+			],
+			[
+				"mai",
+				"src\\Main.cpp"
+			],
+			[
+				"g",
+				"src\\GameObject.cpp"
+			],
+			[
+				"gamo",
+				"include\\GameObject.h"
+			],
+			[
+				"b",
+				"src\\Ball.cpp"
+			],
+			[
+				"ba",
+				"include\\Ball.h"
+			],
+			[
+				"main",
+				"src\\Main.cpp"
+			],
+			[
+				"padd",
+				"include\\Paddle.h"
+			],
+			[
+				"form",
+				"application\\views\\login\\form.html"
+			],
+			[
+				"login",
+				"application\\controllers\\Login.php"
+			],
+			[
+				"bar",
+				"application\\views\\journal\\search\\bar.html"
+			],
+			[
+				"resul",
+				"application\\views\\journal\\search\\results.html"
+			],
+			[
+				"confi",
+				"application\\config\\config.php"
+			],
+			[
+				"jou",
+				"application\\controllers\\Journal.php"
+			],
+			[
+				"au",
+				"application\\models\\Author_model.php"
+			],
+			[
+				"logi",
+				"application\\controllers\\Login.php"
+			],
+			[
+				"page",
+				"application\\views\\journal\\page.html"
+			],
+			[
+				"app",
+				"application\\models\\Application_model.php"
+			],
+			[
+				"res",
+				"application\\views\\journal\\search\\results.html"
+			],
+			[
+				"results",
+				"application\\views\\journal\\search\\results.html"
+			],
+			[
+				"entr",
+				"application\\models\\Entry_model.php"
+			],
+			[
+				"routes",
+				"application\\config\\routes.php"
+			],
+			[
+				"entry",
+				"application\\views\\journal\\entry.html"
+			],
+			[
+				"rou",
+				"application\\config\\routes.php"
+			],
+			[
+				"pag",
+				"application\\views\\page.html"
+			],
+			[
+				"ent",
+				"application\\models\\Entry_model.php"
+			],
+			[
+				"jour",
+				"application\\views\\journal.html"
+			],
+			[
+				"in",
+				"insert_entries.sql"
+			],
+			[
+				"inse",
+				"insert_entries.sql"
+			],
+			[
+				"inser",
+				"insert_entries.sql"
+			],
+			[
+				"insert",
+				"utilities\\templates\\queries\\insert_entry.sql"
+			],
+			[
+				"enty",
+				"application\\views\\entry.html"
+			],
+			[
+				"sy",
+				"application\\views\\stylesheets.html"
+			],
+			[
+				"config.php",
+				"application\\config\\config.php"
+			],
+			[
+				"journ",
+				"application\\views\\journal.html"
+			],
+			[
+				"uri.js",
+				"public\\js\\utilities\\generate_uri.js"
+			],
+			[
+				"update.js",
+				"public\\js\\firefolio\\project\\update.js"
+			],
+			[
+				"index.rst",
+				"documentation\\source\\installation\\index.rst"
+			],
+			[
+				"font",
+				"css\\fonts.css"
+			],
+			[
+				"boi",
+				"boilerplate.html"
+			],
+			[
+				"hist",
+				"history.html"
+			],
+			[
+				"na",
+				"js\\navbar.js"
+			],
+			[
+				"skel",
+				"css\\skeleton.css"
+			],
+			[
+				"single",
+				"firefolio\\application\\views\\backend\\hyperlinks\\input\\single.html"
+			],
+			[
+				"fon",
+				"css\\fonts.css"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"test",
+				"test.html"
+			],
+			[
+				"css",
+				"public\\css\\main.css"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"hash",
+				"application\\controllers\\Hasher.php"
+			],
+			[
+				"conf",
+				"application\\config\\config.php"
+			],
+			[
+				"for",
+				"application\\views\\form.html"
+			],
+			[
+				"fron",
+				"application\\views\\front_page.html"
+			],
+			[
+				"front",
+				"application\\views\\front_page.html"
+			],
+			[
+				"index",
+				"public\\index.php"
+			],
+			[
+				"main.",
+				"css\\main.css"
+			],
+			[
+				"ske",
+				"css\\skeleton.css"
+			],
+			[
+				"boil",
+				"css\\boilerplate.css"
+			],
+			[
+				"skele",
+				"css\\skeleton.css"
+			],
+			[
+				"hypr",
+				"application\\controllers\\backend\\Hyperlinks.php"
+			],
+			[
+				"hyp",
+				"application\\models\\Hyperlink_model.php"
+			],
+			[
+				"port",
+				"application\\controllers\\Portfolio.php"
+			],
+			[
+				"project.php",
+				"application\\controllers\\backend\\Projects.php"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"creden",
+				"application\\helpers\\credentials_helper.php"
+			],
+			[
+				"hyper",
+				"application\\controllers\\backend\\Hyperlinks.php"
+			],
+			[
+				"profile.",
+				"application\\controllers\\backend\\Profile.php"
+			],
+			[
+				"firefolio.css",
+				"public\\css\\firefolio.css"
+			],
+			[
+				"boile",
+				"public\\css\\boilerplate.css"
+			],
+			[
+				"credent",
+				"application\\views\\backend\\security\\update\\credentials.html"
+			],
+			[
+				"projec",
+				"application\\models\\Project_model.php"
+			],
+			[
+				"_mode",
+				"application\\models\\Profile_model.php"
+			],
+			[
+				"project",
+				"application\\models\\Project_model.php"
+			],
+			[
+				"head",
+				"application\\views\\frontend\\portfolio\\header.html"
+			],
+			[
+				"portfolio.html",
+				"application\\views\\frontend\\portfolio\\frontpage.html"
+			],
+			[
+				"index.html",
+				"application\\index.html"
+			],
+			[
+				"helper.te",
+				"utilities\\templates\\application\\helper.template.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\MEGA\\PROJECTS\\lowreztest\\lowreztest.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
