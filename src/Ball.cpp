@@ -10,13 +10,14 @@ LilyTin::Ball::~Ball()
 
 void LilyTin::Ball::start()
 {
-	mTexture.loadFromFile("res/png/ballGrey.png");
+	mTexture.loadFromFile("../res/png/ballGrey.png");
 	mSprite.setTexture(mTexture);
+
 	// Set the origin to the center of the sprite
 	mSprite.setOrigin
 	(
-		mSprite.getLocalBounds().width / 2.0f, // X
-		mSprite.getLocalBounds().height / 2.0f // Y
+		mSprite.getGlobalBounds().width / 2.0f, // X
+		mSprite.getGlobalBounds().height / 2.0f // Y
 	);
 
 	// Make the ball move upwards and to the right
@@ -32,7 +33,7 @@ void LilyTin::Ball::update(float deltaTime)
 	}
 
 	// Bounce right if the ball hits the left side
-	if (mTransform.getPosition().x < mSprite.getLocalBounds().width / 2)
+	if (mTransform.getPosition().x < mSprite.getGlobalBounds().width / 2)
 	{
 		mVelocity.x *= -1.0f;
 	}
@@ -51,7 +52,7 @@ void LilyTin::Ball::update(float deltaTime)
 		mVelocity.y *= -mRestitution.ground;
 	}
 
-	mBoundingBox = mSprite.getLocalBounds();
+	mBoundingBox = mSprite.getGlobalBounds();
 
 	mTransform.move(mVelocity * deltaTime);
 }

@@ -44,13 +44,13 @@ void LilyTin::Game::detectCollisions()
 	{
 		for (int second = first + 1; second < mObjects.size(); ++second)
 		{
-			// If the first object is colliding with the second object but not
-			// colliding with itself
-			if (mObjects[first]->getBoundingBox().intersects(mObjects[second]->getBoundingBox()))
-			{
-				mObjects.[first]->collision();
-				mObjects.[second]->collision();
-			}
+			 // If the first object is colliding with the second object but not
+			 // colliding with itself
+			 if (mObjects[first]->getBoundingBox().intersects(mObjects[second]->getBoundingBox()))
+			 {
+				 mObjects[first]->collision();
+				 mObjects[second]->collision();
+			 }
 		}
 	}
 }
