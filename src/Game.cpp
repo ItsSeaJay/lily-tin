@@ -40,31 +40,19 @@ void LilyTin::Game::update(float deltaTime)
 
 void LilyTin::Game::detectCollisions()
 {
-	for (int first = 0; second < mObjects.size(); ++i)
+	for (int first = 0; first < mObjects.size(); ++first)
 	{
-		for (int second = first + 1; i < mObjects.size(); ++i)
+		for (int second = first + 1; second < mObjects.size(); ++second)
 		{
 			// If the first object is colliding with the second object but not
 			// colliding with itself
-			if (mObjects[first]->getBoundingBox().intersects(second->getBoundingBox()))
+			if (mObjects[first]->getBoundingBox().intersects(mObjects[second]->getBoundingBox()))
 			{
-				mObjects[first]->collision();
+				mObjects.[first]->collision();
+				mObjects.[second]->collision();
 			}
 		}
-	}	
-
-	// for (GameObject* first : mObjects)
-	// {
-	// 	for (GameObject* second : mObjects)
-	// 	{
-	// 		// If the first object is colliding with the second object but not
-	// 		// colliding with itself
-	// 		if (first->getBoundingBox().intersects(second->getBoundingBox()))
-	// 		{
-	// 			first->collision();
-	// 		}
-	// 	}
-	// }
+	}
 }
 
 void LilyTin::Game::draw()
