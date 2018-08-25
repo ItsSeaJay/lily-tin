@@ -18,9 +18,7 @@ LilyTin::Game::Game(const std::string& title) : mTitle(title)
 	ball->getTransform().setPosition(mWindow.getSize().x / 2.0f, mWindow.getSize().y / 2.0f);
 }
 
-LilyTin::Game::~Game()
-{
-}
+LilyTin::Game::~Game() {}
 
 void LilyTin::Game::start()
 {
@@ -40,6 +38,8 @@ void LilyTin::Game::update(float deltaTime)
 
 void LilyTin::Game::detectCollisions()
 {
+	// Iterate over every GameObject pointer in the vector
+	// Store it's index as `first`
 	for (int first = 0; first < mObjects.size(); ++first)
 	{
 		for (int second = first + 1; second < mObjects.size(); ++second)
@@ -48,8 +48,9 @@ void LilyTin::Game::detectCollisions()
 			 // colliding with itself
 			 if (mObjects[first]->getBoundingBox().intersects(mObjects[second]->getBoundingBox()))
 			 {
-				 mObjects[first]->collision();
-				 mObjects[second]->collision();
+			 	// Trigger the events of both objects
+				mObjects[first]->collision();
+				mObjects[second]->collision();
 			 }
 		}
 	}

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
 				"int",
 				"intersects"
 			],
@@ -14,10 +18,6 @@
 			[
 				"Game",
 				"GameObject"
-			],
-			[
-				"for",
-				"for"
 			],
 			[
 				"G",
@@ -443,6 +443,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/Game.cpp",
+			"settings":
+			{
+				"buffer_size": 2171,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 1259,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/Lua Love/LuaLove.sublime-build",
 	"build_system_choices":
@@ -700,7 +717,8 @@
 	},
 	"expanded_folders":
 	[
-		"/D/MEGA/PROJECTS/lily-tin"
+		"/D/MEGA/PROJECTS/lily-tin",
+		"/D/MEGA/PROJECTS/lily-tin/src"
 	],
 	"file_history":
 	[
@@ -835,7 +853,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -850,6 +868,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"{\n",
 			"64",
 			"Koenig",
 			"destroyed",
@@ -893,14 +912,72 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/Game.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								577,
+								577
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "CMakeLists.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1259,
+								1259
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CMake/CMake.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -937,7 +1014,7 @@
 	"project": "lily-tin.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
